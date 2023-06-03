@@ -17,22 +17,22 @@ const ExperienceCard = ({experience}) => (
       <div>
         <img 
         src={experience.icon} 
-        alt={experience.company_name} 
+        alt=""
         className='h-[60%] w-[60%] object-contain'
         />
       </div>
      }
     >
       <div>
-        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
-        <p>{experience.company_name}</p>
+        <h3 className="text-SageGreen text-[24px] font-bold">{experience.title}</h3>
+        <p className="text-Teal">{experience.company_name}</p>
       </div>
 
       <ul className="mt-5 list-disc ml-5 space-y-2">
           {experience.points.map((point, index) => (
             <li 
               key={`experience-point${index} `}
-              className="text-white-100 text-[14px] pl-1 tracking-wider"
+              className="text-SageGreen text-[14px] pl-1 tracking-wider"
             >
               {point}  
             </li>
@@ -47,14 +47,19 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What i have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience</h2>
+        <div className="mx-auto flex flex-col justify-center items-center">
+          <h2 className={styles.sectionHeadText}>Work Experience</h2>
+        </div>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} {...experience} />
+            <ExperienceCard 
+              key={index} 
+              experience={experience} 
+              {...experience} 
+            />
           ))} 
         </VerticalTimeline>   
       </div>

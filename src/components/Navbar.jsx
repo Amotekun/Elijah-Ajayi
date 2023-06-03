@@ -2,7 +2,7 @@ import React, {useState }from 'react';
 import { Link } from 'react-router-dom';
 import { navLinks } from '../constants';
 import { styles } from '../styles';
-import {logo, menu, close} from '../assets';
+import {logo, e, menu, close} from '../assets';
 
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         > 
-        <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
+        <img src={e} alt="logo" className='w-12 h-9 object-contain rounded-full' />
         <p className='text-white text-[18px] font-bold cursor-pointer flex gap-2'>Elijah<span className='sm:block hidden'>| Ajayi </span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
