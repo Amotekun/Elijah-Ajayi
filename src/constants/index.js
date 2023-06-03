@@ -1,29 +1,4 @@
-import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs,} from "../assets";
   
   export const navLinks = [
     {
@@ -40,9 +15,9 @@ import {
     },
   ];
   
-  const services = [
+/*   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Web developer",
       icon: web,
     },
     {
@@ -50,14 +25,14 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Develo ",
       icon: backend,
     },
     {
       title: "Content Creator",
       icon: creator,
     },
-  ];
+  ]; */
   
   const technologies = [
     {
@@ -104,14 +79,14 @@ import {
       name: "git",
       icon: git,
     },
-    {
+/*     {
       name: "figma",
       icon: figma,
     },
     {
       name: "docker",
       icon: docker,
-    },
+    }, */
   ];
   
   const experiences = [
@@ -198,7 +173,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "House Rent Model",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -214,11 +189,15 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "Next.js",
+          color: "green-text-gradient",
+        },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://start-up-rent-model.vercel.app",
     },
-    {
+   /*  {
       name: "Job IT",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
@@ -259,7 +238,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
-    },
+    }, */
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export {technologies, experiences, testimonials, projects };

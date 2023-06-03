@@ -2,7 +2,7 @@ import React from 'react';
 import { Tilt } from 'react-tilt';
 import {motion} from 'framer-motion';
 import {styles} from '../styles';
-import {services} from '../constants';
+/* import {services} from '../constants'; */
 import {fadeIn, textVariant} from '../utils/motion';
 import SectionWrapper from '../hoc/SectionWrapper';
 
@@ -35,14 +35,14 @@ const About = () => {
         variants={fadeIn()}
         className="mt-4 text-secondary text-[17px] leading-[30px] max-w-3xl"
       >
-        I am a Web Developer with 2+ years of experience designing and developing responsive websites and web applications. Proficient in HTML, CSS, JavaScript, and various web development libraries and frameworks such as ReactJS, TailwindCSS, Express, MongoDB and Node.js. Strong understanding of web design principles, user experience, and search engine optimization. Experience in integrating web applications with some back-end technologies such as Node.js. Strong problem-solving skills and ability to work in a fast-paced, deadline-driven environment. Proven track record of delivering high-quality web solutions to clients across various industries.
+        I am a Web Developer with 2+ years of experience designing and developing responsive websites and web applications. Proficient in HTML, CSS, JavaScript, and various web development libraries and frameworks such as ReactJS, TailwindCSS, Next.js, MongoDB and Node.js. Decent understanding of web design principles, user experience, and search engine optimization. Experience in integrating web applications with some back-end technologies such as Node.js. Problem-solving skills and ability to work in a fast-paced, deadline-driven environment. Proven track record of delivering high-quality web solutions to clients across various industries.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+  {/*     <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   )
 }
