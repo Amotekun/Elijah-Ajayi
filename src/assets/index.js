@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import e from "./e.png";
+import RentMyHouse from "./RentMyHouse.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -41,6 +42,7 @@ export {
   menu,
   close,
   e,
+  RentMyHouse,
   css,
   docker,
   figma,

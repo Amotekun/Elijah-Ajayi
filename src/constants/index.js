@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs,} from "../assets";
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, RentMyHouse, threejs,} from "../assets";
   
   export const navLinks = [
     {
@@ -168,7 +168,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
           color: "green-text-gradient",
         },
       ],
-      image: carrent,
+      image: RentMyHouse,
       source_code_link: "https://start-up-rent-model.vercel.app",
     },
    /*  {
