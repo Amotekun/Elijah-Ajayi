@@ -108,7 +108,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
       company_name: "Avover",
       /* icon: tesla, */
       iconBg: "#E6DEDD",
-      date: "Sasonal",
+      date: "Seasonal",
       points: [
         "Creating responsive user interfaces using modern front-end technologies for engaging media experiences.",
         "Optimizing website performance through efficient coding practices and advanced techniques.",
