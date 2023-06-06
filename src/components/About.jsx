@@ -35,7 +35,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn()}
-        className="mt-4 text-SageGreen text-[23px] leading-[30px] max-w-1xl mx-auto"
+        className="mt-4 text-SageGreen text-[23px] leading-[30px] max-w-1xl mx-auto text-justify"
       >
         I am a Web Developer with 2+ years of experience designing and developing responsive websites and web applications. Proficient in HTML, CSS, JavaScript, and various web development libraries and frameworks such as ReactJS, TailwindCSS, Express, MongoDB and Next.js. Strong understanding of web design principles, user experience, and search engine optimization. Experienced in integrating web applications with some back-end technologies such as Node.js. Strong problem-solving skills and ability to work in a fast-paced, deadline-driven environment. Proven track record of delivering high-quality web solutions to clients across various industries.
       </motion.p>

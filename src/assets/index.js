@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import e from "./e.png";
 import RentMyHouse from "./RentMyHouse.png";
+import Weather from "./Weather.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -43,6 +44,7 @@ export {
   close,
   e,
   RentMyHouse,
+  Weather,
   css,
   docker,
   figma,

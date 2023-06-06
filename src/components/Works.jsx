@@ -46,12 +46,12 @@ const Works = () => {
       </motion.div>
 
       <div className="flex justify-center">
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-SageGreen text-[17px] max-w-3xl leading-[30px]'>
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-SageGreen text-[17px] max-w-3xl leading-[30px] text-justify'>
           The following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with live demos. It reflects my ability to solve complex problems and work with different technologies 
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7 '>
+      <div className='mt-20 flex flex-wrap gap-7 text-justify '>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
