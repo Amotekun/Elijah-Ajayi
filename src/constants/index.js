@@ -191,7 +191,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
         },
       ],
       image: Weather,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://magenta-taffy.netlify.app/",
     },
    /*  {
       name: "Trip Guide",
