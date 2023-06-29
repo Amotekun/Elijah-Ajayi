@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, RentMyHouse, threejs, Weather,} from "../assets";
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, RentMyHouse, threejs, Weather, Showcase,} from "../assets";
   
   export const navLinks = [
     {
@@ -149,7 +149,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
     {
       name: "House Rent Model",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, book, and manage house rentals from various providers, providing a convenient and efficient solution for housing needs.",
       tags: [
         {
           name: "react",
@@ -173,47 +173,26 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
     },
 
     {
-      name: "Weather Application",
+      name: "Car Rent Model",
       description:
-        "This project gave me hands-on experience in API integration, asynchronous programming, UI design, data manipulation, error handling, localization, testing, and deployment. I developed practical skills and problem-solving abilities that are valuable in many other development projects",
+        "I got hands-on experience in API integration, asynchronous programming, UI design, data manipulation, error handling, localization, testing, and deployment. I developed practical and problem-solving skill ",
       tags: [
         {
-          name: "Html",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "Ccc",
+          name: "Tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "Vanilla Javascript",
+          name: "TypeScript",
           color: "pink-text-gradient",
         },
       ],
-      image: Weather,
-      source_code_link: "https://magenta-taffy.netlify.app/",
+      image: Showcase,
+      source_code_link: "https://car-rent-topaz.vercel.app/",
     },
-   /*  {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    }, */
   ];
   
   export {technologies, experiences, testimonials, projects };

@@ -9,6 +9,7 @@ import close from "./close.svg";
 import e from "./e.png";
 import RentMyHouse from "./RentMyHouse.png";
 import Weather from "./Weather.png";
+import Showcase from "./Showcase.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -65,4 +66,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  Showcase,
 };
