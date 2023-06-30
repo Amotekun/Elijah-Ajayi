@@ -9,10 +9,10 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
       id: "work",
       title: "Work",
     },
-    {
-      id: "contact",
-      title: "Contact",
-    },
+    // {
+    //   id: "contact",
+    //   title: "Contact",
+    // },
   ];
   
 /*   const services = [
